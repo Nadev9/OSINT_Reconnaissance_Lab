@@ -1,0 +1,27 @@
+Type,Name,Address,Target,Port,String
+SOA,elliott.ns.cloudflare.com,162.159.44.228,,,
+SOA,elliott.ns.cloudflare.com,172.64.35.228,,,
+SOA,elliott.ns.cloudflare.com,108.162.195.228,,,
+SOA,elliott.ns.cloudflare.com,2606:4700:58::a29f:2ce4,,,
+SOA,elliott.ns.cloudflare.com,2803:f800:50::6ca2:c3e4,,,
+SOA,elliott.ns.cloudflare.com,2a06:98c1:50::ac40:23e4,,,
+NS,elliott.ns.cloudflare.com,108.162.195.228,,,
+NS,elliott.ns.cloudflare.com,162.159.44.228,,,
+NS,elliott.ns.cloudflare.com,172.64.35.228,,,
+NS,elliott.ns.cloudflare.com,2a06:98c1:50::ac40:23e4,,,
+NS,elliott.ns.cloudflare.com,2606:4700:58::a29f:2ce4,,,
+NS,elliott.ns.cloudflare.com,2803:f800:50::6ca2:c3e4,,,
+NS,hera.ns.cloudflare.com,108.162.192.162,,,
+NS,hera.ns.cloudflare.com,172.64.32.162,,,
+NS,hera.ns.cloudflare.com,173.245.58.162,,,
+NS,hera.ns.cloudflare.com,2a06:98c1:50::ac40:20a2,,,
+NS,hera.ns.cloudflare.com,2803:f800:50::6ca2:c0a2,,,
+NS,hera.ns.cloudflare.com,2606:4700:50::adf5:3aa2,,,
+A,example.com,104.20.23.154,,,
+A,example.com,172.66.147.243,,,
+AAAA,example.com,2606:4700:10::6814:179a,,,
+AAAA,example.com,2606:4700:10::ac42:93f3,,,
+TXT,example.com,,,,'v=spf1 -all'
+TXT,example.com,,,,'_k2n1y4vw3qtb4skdx9e7dxt97qrmmq9'
+TXT,_dmarc.example.com,,,,'v=DMARC1;p=reject;sp=reject;adkim=s;aspf=s'
+TXT,_dmarc._domainkey.example.com,,,,'v=DKIM1; p='
